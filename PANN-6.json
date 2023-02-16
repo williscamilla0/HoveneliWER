@@ -2,7 +2,6 @@
     "embed_dim": 512,
     "audio_cfg": {
         "audio_length": 1024,
-        "clip_samples": 480000,
         "sample_rate": 48000,
         "window_size": 1024,
         "hop_size": 480,
@@ -13,9 +12,6 @@
         "model_name": "Cnn6"
     },
     "text_cfg": {
-        "vocab_size": 49408,
-        "width": 512,
-        "heads": 8,
         "layers": 12
     }
 }
